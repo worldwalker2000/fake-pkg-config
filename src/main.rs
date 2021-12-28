@@ -19,5 +19,8 @@ fn main() {
         print!("-I\"..\\vcpkg\\installed\\x86-windows\\include\"");
     } else if opt.libs {
         print!("-L\"..\\vcpkg\\installed\\x86-windows\\lib\"");
+        for lib in opt.names {
+            print!(" -l{}", lib);
+        }
     }
 }
