@@ -8,3 +8,5 @@ The code is very simple so you can modify the paths that are output for --cflags
 Their is no config file because I am too lazy.
 
 Then you can install with ```cargo install```
+
+This program is only really useful for me, but maybe someone will find it useful. And it lets me put something on my github.
